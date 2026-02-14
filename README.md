@@ -32,7 +32,36 @@
 To run this project locally, follow these steps:
 
 ### 1. Clone the Repository
-```bash
-git clone https://github.com/mgorv/GermanWordQuest.git
 
+    git clone https://github.com/mgorv/GermanWordQuest.git
 
+### 2. Open in Android Studio
+Open Android Studio and select **Open an Existing Project**, then navigate to the cloned folder.
+
+### 3. Firebase Setup (Crucial)
+This project uses Firebase for data. To make it work:
+1.  Go to the [Firebase Console](https://console.firebase.google.com/).
+2.  Create a new project.
+3.  Add an Android App using the package name: `com.example.germanwordquest`.
+4.  Download the `google-services.json` file.
+5.  Place the file in the `app/` directory of the project.
+6.  Enable **Firestore Database** in the Firebase Console.
+
+### 4. Build and Run
+Sync Gradle files and run the app on an emulator or physical device.
+
+## 📂 Project Structure
+
+-   `GameScreen.kt`: The main entry point containing the UI logic and navigation.
+-   `PuzzleLogic.kt`: Contains the algorithms for generating the word search grid and placing words randomly.
+-   `GameData.kt`: Data models representing the words and categories.
+-   `ui/theme`: Custom pastel color palettes and typography.
+
+## 🤝 Contributing
+
+Contributions are welcome! If you have ideas for new features or want to add more words to the database logic:
+1.  Fork the repository.
+2.  Create a new branch (`git checkout -b feature/AmazingFeature`).
+3.  Commit your changes (`git commit -m 'Add some AmazingFeature'`).
+4.  Push to the branch (`git push origin feature/AmazingFeature`).
+5.  Open a Pull Request.
