@@ -33,4 +33,6 @@ To run this project locally, follow these steps:
 
 ### 1. Clone the Repository
 ```bash
-git clone [https://github.com/mgorv/GermanWordQuest.git](https://github.com/mgorv/GermanWordQuest.git)
+git clone https://github.com/mgorv/GermanWordQuest.git
+
+
