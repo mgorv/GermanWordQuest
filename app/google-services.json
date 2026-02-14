@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1027769816516",
+    "project_id": "germanwordquest",
+    "storage_bucket": "germanwordquest.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1027769816516:android:920a9f950a2f5cb11ac091",
+        "android_client_info": {
+          "package_name": "com.example.germanwordquest"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCShS1A5QhY7iIvf0Xs1R-_T4xxLK6bRX8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
